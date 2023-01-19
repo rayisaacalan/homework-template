@@ -1,0 +1,23 @@
+---
+title: Title
+subtitle: Subtitle
+format:
+  homework-pdf: default
+author: Isaac Ray
+institute: Texas A\&M University
+email: null@stat.tamu.edu
+date: last-modified
+---
+
+## Question 1
+
+*Write down sets in order of containment.*
+
+We pretend that equivalence classes are just numbers.
+
+$$\mathbb{R} \subset \mathbb{C}$$
+
+
+
+
+
