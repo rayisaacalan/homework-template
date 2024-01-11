@@ -2,23 +2,29 @@
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto use template <github-organization>/homework
+quarto use template rayisaacalan/homework-template
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+This will install the extension and create an example .qmd file that you can use as a starting place for your assignment.
 
 ## Using
 
-*TODO*: Describe how to use your format.
+Be sure to replace the fields in the header YAML so that your name, email, assignment title and subtitle are correct.
 
 ## Format Options
 
-*TODO*: If your format has options that can be set via document metadata, describe them.
+The `before-body.tex` document partial has the following fields:
+ - author
+ - institute
+ - email
+ - title
+ - subtitle
+ - date
 
-## Example
+The `header.tex` includes the following functionality:
+ - `\note{}` writes a red comment in the margin of the page
+ - Changes the look of blackboard bold characters to use AMS Symbol Font B (for certain compilers)
 
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+
 
